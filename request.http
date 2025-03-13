@@ -3,3 +3,52 @@
 //
 // Ajouter des tests pour vos routes ici
 ///////////////////////////////////////////////////////////////////////////////
+
+//signup
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+  "email": "cooluser@gmail.com",
+  "password": "mypassword"
+}
+
+
+
+//login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email":"cooluser@gmail.com",
+  "password": "mypassword"
+}
+
+//post emprunt
+POST http://localhost:3000/cooluser@gmail.com/emprunts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImVtYWlsIjoiY29vbHVzZXJAZ21haWwuY29tIiwiaWF0IjoxNzQxODc0NjI5LCJleHAiOjE3NDE4NzgyMjl9.xd_Fd4GTGX8jjOl3ITVVrvDCwMbJlnWCdIv-xmBp5Go
+
+{
+  "id_livre": 1
+}
+
+//get emprunts de utilisateur
+
+GET http://localhost:3000/cooluser@gmail.com/emprunts
+
+
+
+//get livres
+
+GET http://localhost:3000/livres
+
+
+//Ajouter livre pour test
+POST http://localhost:3000/livres
+Content-Type: application/json
+
+{
+  "titre":"Harry",
+  "author": "jkrowling"
+}
