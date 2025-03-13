@@ -41,7 +41,7 @@ prêts.
       Si l'utilisateur existe déjà, elle retourne un message d'erreur.
 
    2. `POST /login` : Cette route permet à un utilisateur de se connecter. Elle prend en
-      paramètre un objet JSON avec les champs `username` et `password`. Si l'utilisateur
+      paramètre un objet JSON avec les champs `email` et `password`. Si l'utilisateur
       existe dans la base de données et que le mot de passe est correct, la route retourne
       un objet JSON avec un champ `token` qui contient un jeton d'authentification. Si
       l'utilisateur n'existe pas ou que le mot de passe est incorrect, la route retourne
