@@ -1,0 +1,29 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "examen mi-session",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archambaultv-prof/2025H-420-4D2-MA-mi-session.git"
+  },
+  "keywords": [
+    "Education"
+  ],
+  "author": "Vincent Archambault-Bouffard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archambaultv-prof/2025H-420-4D2-MA-mi-session/issues"
+  },
+  "homepage": "https://github.com/archambaultv-prof/2025H-420-4D2-MA-mi-session#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
